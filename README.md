@@ -30,3 +30,18 @@ This Python script is a demo application that handles incoming SMS messages usin
    Ensure you have the required Python library by installing `gsmmodem`:
    ```bash
    pip install gsmmodem
+
+Usage
+Run the Script:
+Execute the script to start listening for incoming SMS messages:
+python sms_handler.py
+
+
+SMS Handling:
+
+The script will display incoming SMS messages, including the sender's number and message content.
+It will automatically reply with a confirmation message.
+
+Stopping the Script:
+
+Press CTRL+C to stop the script.
